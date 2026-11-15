@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="kk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Таргет + Claude гайды — Еркін</title>
+<meta name="description" content="Таргеттің рутинасын Claude-қа тапсыруды үйрететін қазақша гайд, 5 Claude скилі және жабық канал. 5 000 ₸.">
+<meta property="og:title" content="Таргет + Claude гайды — Еркін">
+<meta property="og:description" content="Таргеттің рутинасын Claude-қа тапсыруды үйрететін қазақша гайд, 5 Claude скилі және жабық канал. 5 000 ₸.">
+<meta property="og:image" content="images/erkin_laptop.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9L4.9 19.1' stroke='%23D97757' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0;background:#FAF9F5}
+a{color:#2F5BD3}a:hover{color:#16245E}
+</style>
+
+<style>html{scroll-behavior:smooth} details summary::-webkit-details-marker{display:none} details summary{list-style:none} img{max-width:100%}</style>
+</head>
+<body>
+
+<div style="font-family: Inter, system-ui, sans-serif; color: #141413; background: #FAF9F5; width: 100%; min-height: 100vh">
+
+<header style="max-width: 1160px; margin: 0 auto; padding: 20px 24px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between">
+<div style="display: flex; align-items: center; gap: 10px">
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"><path d="M12 2v20M2 12h20M4.9 4.9l14.2 14.2M19.1 4.9L4.9 19.1"></path></svg>
+<span style="font-family: Montserrat, sans-serif; font-weight: 900; font-size: 20px; letter-spacing: 0.5px">ЕРКІН <span style="color: #D97757">·</span> ТАРГЕТ + CLAUDE</span>
+</div>
+<a href="https://t.me/erkin_target" style="background: #16245E; color: #FFFFFF; font-weight: 700; font-size: 15px; text-decoration: none; border-radius: 999px; padding: 12px 22px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Гайдты алу · 5 000 ₸</a>
+</header>
+
+<section style="max-width: 1160px; margin: 0 auto; padding: 32px 24px 64px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<div style="flex: 999 1 520px; min-width: 0; display: flex; flex-direction: column; gap: 22px">
+<span style="align-self: flex-start; background: #F2E3DA; color: #8F3F22; font-weight: 700; font-size: 14px; padding: 8px 14px; border-radius: 999px">Қазақша гайд · таргетологтар мен бизнес иелеріне</span>
+<h1 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(36px, 5.2vw, 66px); line-height: 1.04; letter-spacing: -1px">Отчет, мәтін, кампания — <span style="color: #D97757">Claude жасайды.</span> Сіз тек тексересіз.</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #3D3D3A; max-width: 580px">Таргеттегі ең көп уақыт алатын жұмысты Claude-қа тапсыруды үйрететін гайд, 5 дайын скил және жабық канал. Мен күнде қолданатын промпттар — көшіріп, өз деректеріңізді қоясыз.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 14px; align-items: center">
+<a href="https://t.me/erkin_target" style="background: #D97757; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; padding: 18px 30px; border-radius: 14px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; gap: 10px">
+<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"></path><path d="M22 2l-7 20-4-9-9-4 20-7z"></path></svg>
+Telegram арқылы алу — 5 000 ₸</a>
+<a href="#examples" style="color: #16245E; font-weight: 700; font-size: 16px; text-decoration: none; padding: 14px 6px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Мысалдарды көру ↓</a>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<span style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600">Kaspi арқылы</span>
+<span style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600">Бір рет төлем</span>
+<span style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600">Код білу керек емес</span>
+</div>
+</div>
+<div style="flex: 1 1 360px; min-width: 0; position: relative; display: flex; flex-direction: column; gap: 12px">
+<img src="images/erkin_laptop.jpg" alt="Еркін ноутбукпен жұмыс істеп отыр" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 30%; border-radius: 24px; display: block">
+<div style="position: absolute; left: -12px; top: 28px; background: #FFFFFF; border-radius: 14px; padding: 12px 16px; box-shadow: 0 10px 30px rgba(20,20,19,0.12); font-weight: 700; font-size: 15px; display: flex; gap: 8px; align-items: center"><span style="color: #2F5BD3">✓</span> Отчет талданды</div>
+<div style="position: absolute; right: -8px; top: 42%; background: #FFFFFF; border-radius: 14px; padding: 12px 16px; box-shadow: 0 10px 30px rgba(20,20,19,0.12); font-weight: 700; font-size: 15px; display: flex; gap: 8px; align-items: center"><span style="color: #2F5BD3">✓</span> 5 жарнама мәтіні дайын</div>
+<div style="position: absolute; left: 16px; bottom: 24px; background: #16245E; color: #FFFFFF; border-radius: 14px; padding: 12px 16px; box-shadow: 0 10px 30px rgba(20,20,19,0.18); font-weight: 700; font-size: 15px">Кампания черновикте — тексеріңіз</div>
+</div>
+</section>
+
+<div style="background: #16245E; color: #FFFFFF; overflow: hidden">
+<div style="max-width: 1160px; margin: 0 auto; padding: 16px 24px; display: flex; flex-wrap: wrap; gap: 10px 28px; justify-content: center; font-family: Montserrat, sans-serif; font-weight: 800; font-size: 15px; letter-spacing: 1.5px">
+<span>ОТЧЕТ ТАЛДАУ</span><span style="color: #D97757">✦</span><span>ЖАРНАМА МӘТІНІ</span><span style="color: #D97757">✦</span><span>КРЕАТИВ</span><span style="color: #D97757">✦</span><span>ADS MANAGER</span><span style="color: #D97757">✦</span><span>REELS СЦЕНАРИЙІ</span><span style="color: #D97757">✦</span><span>КЛИЕНТКЕ КП</span>
+</div>
+</div>
+
+<section style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">ТАНЫС ПА?</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1">Жарнаманың өзінен гөрі <span style="color: #D97757">рутинасы</span> шаршатады</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"></path></svg>
+<span style="font-weight: 700; font-size: 18px; line-height: 1.35">Түнге дейін отчет қарайсыз</span>
+<span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Қай жарнама ақша жеп жатқанын кесте үстінде отырып іздейсіз.</span>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"></path></svg>
+<span style="font-weight: 700; font-size: 18px; line-height: 1.35">Жаңа мәтін ойлап таба алмайсыз</span>
+<span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Әр клиентке, әр тестке жаңа мәтін керек, ал идея таусылды.</span>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+<span style="font-weight: 700; font-size: 18px; line-height: 1.35">Клиентке есеп пен КП жазуға уақыт кетеді</span>
+<span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Жарнамадан гөрі хат жазуға көп отырасыз.</span>
+</div>
+<div style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 10px">
+<svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D97757" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 8v4"></path><path d="M12 16h.01"></path></svg>
+<span style="font-weight: 700; font-size: 18px; line-height: 1.35">Бизнес иесі: ақша қайда кетіп жатқанын түсінбейсіз</span>
+<span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Таргетологтың есебін оқысаңыз да, нәтиже бар ма, жоқ па — белгісіз.</span>
+</div>
+</div>
+</section>
+
+<section style="background: #FFFFFF; border-top: 1px solid #E8E6DC; border-bottom: 1px solid #E8E6DC">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">САЛЫСТЫРЫҢЫЗ</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1">Қолмен <span style="color: #8A8A85">немесе</span> <span style="color: #D97757">Claude-пен</span></h2>
+</div>
+<div style="overflow-x: auto; border-radius: 18px; border: 1px solid #E8E6DC">
+<table style="width: 100%; min-width: 640px; border-collapse: collapse; font-size: 16px">
+<thead>
+<tr><th style="text-align: left; background: #16245E; color: #FFFFFF; padding: 16px 20px; font-weight: 700">Тапсырма</th><th style="text-align: left; background: #16245E; color: #FFFFFF; padding: 16px 20px; font-weight: 700">Қолмен</th><th style="text-align: left; background: #D97757; color: #FFFFFF; padding: 16px 20px; font-weight: 700">Claude-пен</th></tr>
+</thead>
+<tbody>
+
+<tr><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; font-weight: 700">Отчет талдау</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; color: #5E5D59">Кестені жол-жолымен қарап отырасыз</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; background: #FBF1EC; font-weight: 600">Файлды саласыз — «өшір / көбейт / өзгерт» ұсынысы дайын</td></tr>
+
+<tr><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; font-weight: 700">Жарнама мәтіні</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; color: #5E5D59">Бір мәтінге ұзақ отырасыз</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; background: #FBF1EC; font-weight: 600">5 түрлі тәсілмен 5 мәтін бір сұраумен</td></tr>
+
+<tr><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; font-weight: 700">Ads Manager баптау</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; color: #5E5D59">Әр баптауды өзіңіз басасыз</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; background: #FBF1EC; font-weight: 600">Claude баптайды, сіз тексеріп жариялайсыз</td></tr>
+
+<tr><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; font-weight: 700">Клиентке есеп</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; color: #5E5D59">Кешке дейін хат жазасыз</td><td style="padding: 16px 20px; border-top: 1px solid #E8E6DC; background: #FBF1EC; font-weight: 600">WhatsApp-қа жіберуге дайын қысқа есеп</td></tr>
+
+</tbody>
+</table>
+</div>
+</div>
+</section>
+
+<section id="examples" style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">МЫСАЛДАР</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1">Бұл Reels-тердің бәрін <span style="color: #D97757">Claude-пен</span> жасадым</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #3D3D3A; max-width: 640px">Сценарий, монтаж, отчет талдау, жарнама баптау — гайдта осының әрқайсысы қадам-қадаммен бар.</p>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 14px">
+<a href="https://instagram.com/erkin_ba1" style="text-decoration: none; color: #141413; display: flex; flex-direction: column; gap: 10px">
+<img src="images/reel1.jpg" alt="Бұл видеоны AI монтаждады" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; background: #E8E6DC">
+<span style="font-weight: 700; font-size: 15px; line-height: 1.35">Бұл видеоны AI монтаждады</span>
+</a>
+<a href="https://instagram.com/erkin_ba1" style="text-decoration: none; color: #141413; display: flex; flex-direction: column; gap: 10px">
+<img src="images/reel2.jpg" alt="Бұл видео қалай жасалды" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; background: #E8E6DC">
+<span style="font-weight: 700; font-size: 15px; line-height: 1.35">Бұл видео қалай жасалды</span>
+</a>
+<a href="https://instagram.com/erkin_ba1" style="text-decoration: none; color: #141413; display: flex; flex-direction: column; gap: 10px">
+<img src="images/reel3.jpg" alt="Отчетті 30 секундта талдау" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; background: #E8E6DC">
+<span style="font-weight: 700; font-size: 15px; line-height: 1.35">Отчетті 30 секундта талдау</span>
+</a>
+<a href="https://instagram.com/erkin_ba1" style="text-decoration: none; color: #141413; display: flex; flex-direction: column; gap: 10px">
+<img src="images/reel4.jpg" alt="Жарнаманы Claude өзі қосты" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; background: #E8E6DC">
+<span style="font-weight: 700; font-size: 15px; line-height: 1.35">Жарнаманы Claude өзі қосты</span>
+</a>
+<a href="https://instagram.com/erkin_ba1" style="text-decoration: none; color: #141413; display: flex; flex-direction: column; gap: 10px">
+<img src="images/reel5.jpg" alt="5 жарнама мәтіні бір минутта" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; background: #E8E6DC">
+<span style="font-weight: 700; font-size: 15px; line-height: 1.35">5 жарнама мәтіні бір минутта</span>
+</a>
+<a href="https://instagram.com/erkin_ba1" style="text-decoration: none; color: #141413; display: flex; flex-direction: column; gap: 10px">
+<img src="images/reel6.jpg" alt="Таргетологтың бір күні" style="width: 100%; aspect-ratio: 9 / 16; object-fit: cover; border-radius: 16px; display: block; background: #E8E6DC">
+<span style="font-weight: 700; font-size: 15px; line-height: 1.35">Таргетологтың бір күні</span>
+</a>
+
+</div>
+<a href="https://instagram.com/erkin_ba1" style="align-self: flex-start; font-weight: 700; color: #16245E; text-decoration: none; min-height: 44px; display: inline-flex; align-items: center">Барлығын Instagram-да көру (@erkin_ba1) →</a>
+</section>
+
+<section style="background: #16245E; color: #FFFFFF">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #F0A88C">ПАКЕТТЕ НЕ БАР</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1">Гайд + 5 скил + жабық канал</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px">
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">1-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Claude-ты баптау</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">Тіркелу, жоба ашу, нұсқаулық шаблоны.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">2-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Аудитория мен бәсекелестер</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">Ниша талдау, боль мен қажеттіліктер.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">3-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Жарнама мәтіндері</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">5 тәсілмен мәтін, «ОФФЕР» промпты.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">4-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Креатив пен Reels сценарийі</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">Хуктар, сценарий құрылымы, идеялар.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">5-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Ads Manager-ді Claude-пен баптау</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">Claude браузерде кампанияны өзі жинайды.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">6-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Отчет талдау</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">Нені өшіру, нені көбейту керек.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">7-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Клиентпен жұмыс</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">КП, бриф, апталық есеп, қиын жағдайлар.</span>
+</div>
+
+<div style="background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.14); border-radius: 16px; padding: 20px; display: flex; flex-direction: column; gap: 8px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 13px; letter-spacing: 1.5px; color: #F0A88C">8-БӨЛІМ</span>
+<span style="font-weight: 700; font-size: 17px; line-height: 1.35">Бизнес иелеріне</span>
+<span style="font-size: 14px; line-height: 1.5; color: #C9D2EC">Есепті тексеру, WhatsApp сату скрипті.</span>
+</div>
+
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 14px">
+
+<div style="background: #D97757; border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 1.2px; color: #FFE7DC">CLAUDE СКИЛІ</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 18px">Жарнама мәтіні</span>
+<span style="font-size: 14px; line-height: 1.5; color: #FFF3EE">Нишаға 5 түрлі мәтін бір сұраумен.</span>
+</div>
+
+<div style="background: #D97757; border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 1.2px; color: #FFE7DC">CLAUDE СКИЛІ</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 18px">Отчет талдау</span>
+<span style="font-size: 14px; line-height: 1.5; color: #FFF3EE">CPL, CTR, CPM бойынша нақты ұсыныс.</span>
+</div>
+
+<div style="background: #D97757; border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 1.2px; color: #FFE7DC">CLAUDE СКИЛІ</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 18px">Reels сценарийі</span>
+<span style="font-size: 14px; line-height: 1.5; color: #FFF3EE">Хуктар мен сөзбе-сөз сценарий.</span>
+</div>
+
+<div style="background: #D97757; border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 1.2px; color: #FFE7DC">CLAUDE СКИЛІ</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 18px">Ниша талдау</span>
+<span style="font-size: 14px; line-height: 1.5; color: #FFF3EE">Аудитория, бәсекелестер, оффер.</span>
+</div>
+
+<div style="background: #D97757; border-radius: 16px; padding: 18px 20px; display: flex; flex-direction: column; gap: 6px">
+<span style="font-size: 12px; font-weight: 700; letter-spacing: 1.2px; color: #FFE7DC">CLAUDE СКИЛІ</span>
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 18px">Клиентке КП</span>
+<span style="font-size: 14px; line-height: 1.5; color: #FFF3EE">Бір беттік коммерциялық ұсыныс.</span>
+</div>
+
+</div>
+<p style="margin: 0; font-size: 16px; line-height: 1.6; color: #C9D2EC; max-width: 720px">Скил — Claude-қа бір рет орнатылатын дайын нұсқаулық. Кейін ұзын промпт жазудың керегі жоқ: «отчетті талда» десеңіз жеткілікті.</p>
+</div>
+</section>
+
+<section style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">КІМГЕ АРНАЛҒАН</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1">Екі жаққа да пайдалы</h2>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 18px">
+<div style="flex: 1 1 320px; min-width: 0; background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: 24px">Таргетологқа</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 16px; line-height: 1.5; color: #3D3D3A">
+<li>Отчет, мәтін, креатив идеясы — сағаттардың орнына минуттар</li>
+<li>Клиентке КП, бриф, апталық есеп дайын шаблонмен</li>
+<li>Уақыт босайды — көбірек клиент аласыз</li>
+</ul>
+</div>
+<div style="flex: 1 1 320px; min-width: 0; background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 20px; padding: 30px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: 24px">Бизнес иесіне</h3>
+<ul style="margin: 0; padding-left: 20px; display: flex; flex-direction: column; gap: 8px; font-size: 16px; line-height: 1.5; color: #3D3D3A">
+<li>Таргетологтың есебін өзіңіз түсінесіз</li>
+<li>Жарнама мәтінін өзіңіз жаза аласыз</li>
+<li>WhatsApp-тағы сатуды Claude-пен жақсартасыз</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section style="background: #F2E3DA">
+<div style="max-width: 1160px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; gap: 28px">
+<div style="display: flex; flex-direction: column; gap: 10px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #8F3F22">НЕ КЕРЕК</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(26px, 3.2vw, 38px); line-height: 1.1">Бастау үшін үш нәрсе</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px">
+<div style="background: #FFFFFF; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; font-size: 18px">Компьютер</span><span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Mac немесе Windows. Ads Manager-ді баптау үшін Chrome браузері.</span></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; font-size: 18px">Claude аккаунты</span><span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Тегін бастауға болады. Толық жұмысқа Claude Pro ыңғайлы (айына шамамен $20) — ол пакет бағасына кірмейді.</span></div>
+<div style="background: #FFFFFF; border-radius: 18px; padding: 24px; display: flex; flex-direction: column; gap: 8px"><span style="font-weight: 700; font-size: 18px">Жарнама кабинеті</span><span style="font-size: 15px; line-height: 1.55; color: #5E5D59">Өзіңіздің немесе клиентіңіздің Facebook жарнама кабинеті.</span></div>
+</div>
+</div>
+</section>
+
+<section style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-wrap: wrap; gap: 48px; align-items: center">
+<img src="images/erkin_portrait.jpg" alt="Еркін, таргетолог" style="flex: 1 1 300px; min-width: 0; max-width: 420px; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: 50% 20%; border-radius: 24px; display: block">
+<div style="flex: 999 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 18px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">АВТОР</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 44px); line-height: 1.1">Сәлем, мен Еркінмін</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #3D3D3A">Таргетологпын, бірнеше клиенттің Facebook жарнама кабинетін жүргіземін. Жұмыстың рутинасын — отчет, мәтін, баптау, клиентке есеп — Claude-қа тапсыруды үйрендім. Instagram-дағы Reels-тердің бәрі де осылай жасалған.</p>
+<p style="margin: 0; font-size: 18px; line-height: 1.65; color: #3D3D3A">Гайдта өзім күнде қолданатын тәсілдер мен промпттарды бөлісемін — қазақша, қарапайым тілмен.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<a href="https://instagram.com/erkin_ba1" style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 999px; padding: 10px 16px; font-weight: 700; font-size: 15px; text-decoration: none; color: #141413; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Instagram: @erkin_ba1</a>
+<a href="https://t.me/rkn24" style="background: #FFFFFF; border: 1px solid #E8E6DC; border-radius: 999px; padding: 10px 16px; font-weight: 700; font-size: 15px; text-decoration: none; color: #141413; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Telegram: @rkn24</a>
+</div>
+</div>
+</section>
+
+<section id="price" style="background: #16245E">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-wrap: wrap; gap: 32px; align-items: stretch">
+<div style="flex: 999 1 440px; min-width: 0; background: #FFFFFF; border-radius: 24px; padding: 36px; display: flex; flex-direction: column; gap: 18px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">БАҒА</span>
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(26px, 3.2vw, 38px); line-height: 1.1">Таргет + Claude пакеті</h2>
+<ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 10px; font-size: 16px">
+<li style="display: flex; gap: 10px"><span style="color: #2F5BD3; font-weight: 800">✓</span>8 бөлімдік гайд (PDF, қазақша)</li>
+<li style="display: flex; gap: 10px"><span style="color: #2F5BD3; font-weight: 800">✓</span>5 дайын Claude скилі</li>
+<li style="display: flex; gap: 10px"><span style="color: #2F5BD3; font-weight: 800">✓</span>Промпт кітапханасы мен чек-лист</li>
+<li style="display: flex; gap: 10px"><span style="color: #2F5BD3; font-weight: 800">✓</span>Жабық Telegram канал, жаңартулар тегін</li>
+</ul>
+<div style="display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap"><span style="font-family: Montserrat, sans-serif; font-weight: 900; font-size: 52px; color: #16245E; line-height: 1">5 000 ₸</span><span style="font-size: 15px; color: #5E5D59">бір рет төлейсіз</span></div>
+<a href="https://t.me/erkin_target" style="background: #D97757; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; padding: 18px 28px; border-radius: 14px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center; justify-content: center">Telegram ботта сатып алу</a>
+<span style="font-size: 13px; color: #5E5D59">Төлем жасау арқылы <a href="oferta.html">жария оферта</a> шарттарымен келісесіз</span>
+</div>
+<div style="flex: 1 1 300px; min-width: 0; display: flex; flex-direction: column; gap: 14px; justify-content: center">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #F0A88C">ҚАЛАЙ САТЫП АЛАМЫН</span>
+<div style="display: flex; gap: 14px; align-items: flex-start; color: #FFFFFF"><span style="font-family: Montserrat, sans-serif; font-weight: 900; font-size: 30px; color: #F0A88C; line-height: 1">1</span><span style="font-size: 17px; line-height: 1.5">Батырманы басасыз — Telegram бот ашылады</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; color: #FFFFFF"><span style="font-family: Montserrat, sans-serif; font-weight: 900; font-size: 30px; color: #F0A88C; line-height: 1">2</span><span style="font-size: 17px; line-height: 1.5">Kaspi арқылы төлеп, чекті ботқа жібересіз</span></div>
+<div style="display: flex; gap: 14px; align-items: flex-start; color: #FFFFFF"><span style="font-family: Montserrat, sans-serif; font-weight: 900; font-size: 30px; color: #F0A88C; line-height: 1">3</span><span style="font-size: 17px; line-height: 1.5">Жабық каналдың жеке сілтемесін аласыз</span></div>
+</div>
+</div>
+</section>
+
+<section style="max-width: 820px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; gap: 14px">
+<span style="font-family: Montserrat, sans-serif; font-weight: 800; font-size: 14px; letter-spacing: 2px; color: #D97757">СҰРАҚТАР</span>
+<h2 style="margin: 0 0 8px; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(28px, 3.6vw, 42px)">Жиі сұрайды</h2>
+<details style="border-bottom: 1px solid #E8E6DC; padding: 0 0 14px" open><summary style="cursor: pointer; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px">Claude-ты бұрын қолданбадым. Түсінемін бе?<span aria-hidden="true" style="font-size: 24px; color: #D97757">+</span></summary><p style="margin: 8px 0 0; font-size: 16px; line-height: 1.6; color: #3D3D3A">Иә. Гайдтың 1-бөлімі тіркелуден бастап қадам-қадаммен түсіндіреді. Промпттарды көшіріп, өз деректеріңізді қойсаңыз болды.</p></details>
+<details style="border-bottom: 1px solid #E8E6DC; padding: 0 0 14px"><summary style="cursor: pointer; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px">Код немесе бағдарламалау білуім керек пе?<span aria-hidden="true" style="font-size: 24px; color: #D97757">+</span></summary><p style="margin: 8px 0 0; font-size: 16px; line-height: 1.6; color: #3D3D3A">Жоқ. Claude-қа жай сөзбен, қазақша жазасыз.</p></details>
+<details style="border-bottom: 1px solid #E8E6DC; padding: 0 0 14px"><summary style="cursor: pointer; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px">Claude ақылы ма?<span aria-hidden="true" style="font-size: 24px; color: #D97757">+</span></summary><p style="margin: 8px 0 0; font-size: 16px; line-height: 1.6; color: #3D3D3A">Тегін жоспармен бастауға болады. Толық жұмысқа Claude Pro ыңғайлы (айына шамамен $20), ол пакет бағасына кірмейді. Қайсы мүмкіндікке не керек екені гайдта жазылған.</p></details>
+<details style="border-bottom: 1px solid #E8E6DC; padding: 0 0 14px"><summary style="cursor: pointer; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px">Телефоннан қолдануға бола ма?<span aria-hidden="true" style="font-size: 24px; color: #D97757">+</span></summary><p style="margin: 8px 0 0; font-size: 16px; line-height: 1.6; color: #3D3D3A">Мәтін, отчет талдау промпттары телефонда да жұмыс істейді. Ads Manager-ді Claude-пен баптау мен скилдерді орнату үшін компьютер керек.</p></details>
+<details style="border-bottom: 1px solid #E8E6DC; padding: 0 0 14px"><summary style="cursor: pointer; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px">Төлегеннен кейін не болады?<span aria-hidden="true" style="font-size: 24px; color: #D97757">+</span></summary><p style="margin: 8px 0 0; font-size: 16px; line-height: 1.6; color: #3D3D3A">Kaspi арқылы төлеп, чекті ботқа жібересіз. Төлем расталған соң бот жабық каналдың жеке сілтемесін жібереді. Әдетте бірнеше сағат ішінде, ең ұзағы 24 сағат.</p></details>
+<details style="border-bottom: 1px solid #E8E6DC; padding: 0 0 14px"><summary style="cursor: pointer; min-height: 44px; display: flex; justify-content: space-between; align-items: center; gap: 16px; font-weight: 700; font-size: 18px">Материалдар қанша уақыт ашық тұрады?<span aria-hidden="true" style="font-size: 24px; color: #D97757">+</span></summary><p style="margin: 8px 0 0; font-size: 16px; line-height: 1.6; color: #3D3D3A">Бір рет төлейсіз, канал мен файлдар сізде қалады. Жаңартулар сол каналға тегін түседі.</p></details>
+
+</section>
+
+<section style="background: #D97757; color: #FFFFFF">
+<div style="max-width: 1160px; margin: 0 auto; padding: 80px 24px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 22px">
+<h2 style="margin: 0; font-family: Montserrat, sans-serif; font-weight: 900; font-size: clamp(30px, 4.2vw, 54px); line-height: 1.08">Келесі отчетті <span style="color: #16245E">Claude</span> талдасын</h2>
+<p style="margin: 0; font-size: 18px; line-height: 1.6; max-width: 560px; color: #FFF3EE">Гайд, 5 скил және жабық канал — 5 000 ₸, бір рет.</p>
+<a href="https://t.me/erkin_target" style="background: #16245E; color: #FFFFFF; text-decoration: none; font-weight: 700; font-size: 18px; padding: 18px 34px; border-radius: 14px; min-height: 44px; box-sizing: border-box; display: inline-flex; align-items: center">Telegram ботқа өту</a>
+</div>
+</section>
+
+<footer style="background: #141413; color: #A3A199">
+<div style="max-width: 1160px; margin: 0 auto; padding: 28px 24px; display: flex; flex-wrap: wrap; gap: 10px 24px; justify-content: space-between; font-size: 13px; line-height: 1.6">
+<span>© Еркін · ЖК ОРЫНБАЙ Е. · <a href="oferta.html" style="color: #E8A48A">Жария оферта</a></span>
+<span>Claude — Anthropic PBC сауда белгісі. Бұл тәуелсіз автордың өнімі, Anthropic-пен ресми байланысы жоқ.</span>
+</div>
+</footer>
+
+</div>
+
+</body>
+</html>
